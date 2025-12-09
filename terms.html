@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - Bongonari Sharee</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-red': '#8B0000',
+                        'brand-gold': '#FFD700',
+                        'brand-cream': '#FDF5E6',
+                        'brand-dark': '#2c1a1a',
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Lato', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-brand-cream text-brand-dark min-h-screen flex flex-col">
+
+    <!-- Header -->
+    <header class="bg-white/90 backdrop-blur-md sticky top-0 z-40 border-b border-brand-gold/30 shadow-sm">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="index.html" class="flex items-center gap-3 group">
+                <img src="images/logo.svg" alt="Bongonari Sharee Logo"
+                    class="h-10 md:h-12 w-auto transition-transform group-hover:scale-105">
+            </a>
+            <nav class="hidden md:flex gap-8 font-serif text-lg">
+                <a href="index.html" class="hover:text-brand-red transition-colors">Home</a>
+                <a href="index.html#collection" class="hover:text-brand-red transition-colors">Collection</a>
+                <a href="https://www.facebook.com/bongonarisharee" target="_blank"
+                    class="hover:text-brand-red transition-colors">Facebook</a>
+            </nav>
+            <a href="https://m.me/bongonarisharee" target="_blank"
+                class="bg-brand-red text-white hover:bg-red-900 px-5 py-2 rounded-full font-bold text-sm transition-colors shadow-lg shadow-red-900/20 flex items-center gap-2">
+                Contact Us
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-16 max-w-4xl">
+        <h1 class="font-serif text-4xl font-bold mb-8 text-brand-red border-b-2 border-brand-gold pb-4">Terms of Service
+        </h1>
+
+        <div class="prose prose-lg prose-red text-gray-700">
+            <p>Last updated: December 09, 2025</p>
+
+            <h3>1. Introduction</h3>
+            <p>These Terms of Service govern your use of the <strong>Bongonari Sharee</strong> website.</p>
+
+            <h3>2. Products and Pricing</h3>
+            <ul class="list-disc pl-5 space-y-2">
+                <li>We strive to display our products as accurately as possible. However, the actual colors you see will
+                    depend on your monitor.</li>
+                <li>All prices listed are in Bangladeshi Taka (BDT) and are subject to change without notice.</li>
+                <li>Each piece (especially Jamdani) is unique; availability is not guaranteed until confirmed via
+                    Messenger.</li>
+            </ul>
+
+            <h3>3. Ordering and Payment</h3>
+            <p>Orders are processed manually through communication on our Facebook Page. Payment terms (Cash on
+                Delivery, bKash, etc.) will be agreed upon during the conversation on Messenger.</p>
+
+            <h3>4. Delivery and Returns</h3>
+            <p>Delivery timelines and return policies are managed on a case-by-case basis as agreed upon during the
+                purchase process on Facebook. We generally do not accept returns on used items, but will address any
+                defects if reported within 24 hours of delivery.</p>
+
+            <h3>5. Intellectual Property</h3>
+            <p>All content on this website, including images, logos, and text, is the property of Bongonari Sharee. You
+                may not use our images for commercial purposes without permission.</p>
+
+            <div class="mt-12 pt-8 border-t border-brand-gold/30">
+                <a href="index.html"
+                    class="inline-flex items-center gap-2 text-brand-red font-bold hover:text-brand-gold transition-colors">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                    </svg>
+                    Back to Home
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-brand-dark text-brand-cream py-12 mt-auto border-t-4 border-brand-red">
+        <div class="container mx-auto px-4 text-center">
+            <div class="flex justify-center gap-6 mb-8 text-sm tracking-widest uppercase opacity-70">
+                <a href="index.html" class="hover:text-brand-gold transition-colors">Home</a>
+                <a href="privacy.html" class="hover:text-brand-gold transition-colors">Privacy Policy</a>
+                <a href="terms.html" class="hover:text-brand-gold transition-colors font-bold text-brand-gold">Terms of
+                    Service</a>
+            </div>
+            <p class="text-sm opacity-50 font-light">&copy; 2025 Bongonari Sharee. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

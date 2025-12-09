@@ -1,0 +1,29 @@
+[
+    {
+        "id": "1001",
+        "title": "Traditional Red Banarasi",
+        "price": "12,500 BDT",
+        "description": "A stunning handcrafted Red Banarasi saree with intricate golden zari work. Perfect for weddings and special occasions.",
+        "imageUrl": "https://placehold.co/600x800/8B0000/FFD700?text=Red+Banarasi",
+        "facebookPostUrl": "https://www.facebook.com/bongonarisharee/posts/example1",
+        "category": "Banarasi"
+    },
+    {
+        "id": "1002",
+        "title": "Elegant Jamdani",
+        "price": "6,500 BDT",
+        "description": "Authentic Dhakai Jamdani in off-white with self-work. Light, airy, and culturally rich.",
+        "imageUrl": "https://placehold.co/600x800/FDF5E6/8B0000?text=Jamdani",
+        "facebookPostUrl": "https://www.facebook.com/bongonarisharee/posts/example2",
+        "category": "Jamdani"
+    },
+    {
+        "id": "1003",
+        "title": "Golden Silk Katan",
+        "price": "18,000 BDT",
+        "description": "Premium Silk Katan in lustrous gold. A masterpiece of weaving.",
+        "imageUrl": "https://placehold.co/600x800/FFD700/000000?text=Golden+Katan",
+        "facebookPostUrl": "https://www.facebook.com/bongonarisharee/posts/example3",
+        "category": "Katan"
+    }
+]
